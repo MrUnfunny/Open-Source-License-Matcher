@@ -58,8 +58,3 @@ List<Match> detectFromString(String text, [threshold = 0.9]) {
 
   return match(text, threshold);
 }
-
-void main() {
-  var res = detectFromDirectory('C:\\Users\\Mohit\\Desktop\\flutter');
-  print(res);
-}
